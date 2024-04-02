@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Employee PR Data</title>
+</head>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+<body style="margin: 10%; background-color: beige;">
+    <a href="dashboard" style="margin-right: 50%; color: black;">Home</a>
+
+    <h1>Employee PR Data</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>Salary</th>
+        </tr>
+        {% for data in emp_pr_data %}
+        <tr>
+            <td>{{ data[0] }}</td>
+            <td>{{ data[1] }}</td>
+            <td>{{ data[2] }}</td>
+            <td>{{ data[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <!-- Flash Messages -->
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+    <ul>
+        {% for message in messages %}
+            <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% endwith %}
+<!-- Form for entering ID to delete -->
+<h2>Delete Employee PR Record</h2>
+<form method="POST" action="{{ url_for('delete_emp_pr') }}">
+    <label for="delete-id">Enter ID to delete:</label>
+    <input type="text" id="delete-id" name="id" required>
+    <button type="submit">Delete</button>
+</form>
+</body>
+</html>
