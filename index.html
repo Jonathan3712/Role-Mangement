@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<style>
+    a{
+        color: #951d1d;
+    }
+</style>
+
+
+<body style="text-align: center; margin-top: 7%; background-color: beige;">
+    <a href="/" style="margin-right: 50%;">Home</a>
+
+    <h1>Welcome to Infocom</h1>
+    <h3>Track and Assign Yourself </h3>
+    <!-- <p><a href="/login">Login</a></p> -->
+    <p>Existing user? <a href="/login">Log in</a></p>
+    <p>New user? <a href="/signup">Sign up</a></p>
+</body>
+</html>

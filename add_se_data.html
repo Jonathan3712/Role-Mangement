@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add SE Data</title>
+</head>
+<body style="margin: 10%; background-color: beige;">
+    <h1>Add SE Data</h1>
+    <form action="/insert_se_data" method="POST">
+        
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="projectname">Project Name:</label>
+        <input type="text" id="projectname" name="projectname" required><br><br>
+        <label for="supervisor">Supervisor:</label>
+        <input type="text" id="supervisor" name="supervisor" required><br><br>
+        <label for="deadline">Deadline:</label>
+        <input type="date" id="deadline" name="deadline" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add HR Data</title>
+</head>
+<body style="margin: 10%; background-color: beige;">
+
+    <h1>Add HR Data</h1>
+    <form action="/insert_hr_data" method="POST">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required><br><br>
+        <label for="supervisor">Supervisor:</label>
+        <input type="text" id="supervisor" name="supervisor" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

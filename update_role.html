@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Login Credentials</title>
+</head>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .update-btn {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 2px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+</style>
+<body style="margin: 10%; background-color: beige;">
+    <td>
+    {% if session.role == 'Admin' %}
+    <form action="/update_role" method="POST">
+        <input type="hidden" name="employee_id" value="{{ data[0] }}">
+        <input type="hidden" name="new_role" value="New Role">
+        <button class="update-btn" type="submit">Update Role</button>
+    </form>
+    {% endif %}
+</td>
+
+</body>
+</html>

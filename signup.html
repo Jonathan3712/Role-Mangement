@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<style>
+    a{
+        color: #951d1d;
+    }
+</style>
+<body style="text-align: center; margin-top: 7%; background-color: beige;">
+    <a href="/" style="margin-right: 50%;">Home</a>
+
+    <h1>Sign Up</h1>
+    <hr style="width: 30%;">
+    <form action="/signup" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><hr style="width: 20%;">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><hr style="width: 20%;">
+        <label for="role">Role:</label><hr style="width: 7%;">
+        <select id="role" name="role">
+            <option value="Admin">Admin</option>
+            <option value="SE">SE</option>
+            <option value="HR">HR</option>
+            <option value="PR">PR</option>
+            <option value="General">General</option>
+        </select><br>
+        <hr style="width: 5%;">
+        <input type="submit" value="Sign Up">
+    </form>
+    <p>Already have an account? <a href="/login">Log in</a></p>
+    <hr style="width: 30%;">
+
+</body>
+</html>

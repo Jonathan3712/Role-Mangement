@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* text-align: center; */
+            background-color: beige;
+        }
+        a{
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 7px;
+            /* background-color: #007bff; */
+            color: #951d1d;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .info-box {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .info-box h2 {
+            margin-top: 0;
+        }
+        .info-box p {
+            margin-bottom: 0;
+        }
+        .logout-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .data-insertion-link{
+            display: block;
+            height: 30px;
+
+        }
+        .data-view-link{
+            display: block;
+            height: 30px;
+        }
+        .line1{
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="/" style="margin-right: 50%; color: black;">Home</a>
+
+        <h1>Welcome to the Dashboard</h1>
+        <div class="info-box">
+            <h2>User Information</h2>
+            <p><strong>Username:</strong> {{ username }}</p>
+            <p><strong>Role:</strong> {{ role }}</p>
+        </div>
+
+ {% if role == 'SE' %}
+ <div class="line1">
+ <div class="container mt-4">
+     <h3>Insertion</h3>
+     <div class="row">
+         <div class="col-md-6">
+             <a href="/add_se_data" class="btn btn-primary btn-block">Add Software Engineer's Data</a>
+         </div>
+         <div class="col-md-6">
+             <a href="/add_emp_se" class="btn btn-primary btn-block">Add Software Engineers Employee</a>
+         </div>
+     </div>
+ </div>
+ <div class="container mt-4">
+    <h3>Updation</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="/update_se_data" class="data-update-link">Update SE Data</a>
+        </div>
+        <div class="col-md-6">
+            <a href="/update_emp_se" class="data-update-link">Update Employee (SE)</a>
+        </div>
+    </div>
+ </div>
+ <div class="container mt-4">
+    <h3>Read and Delete</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="/view_se_data" class="data-update-link">View SE Data</a>
+        </div>
+        <div class="col-md-6">
+            <a href="/view_emp_se" class="data-update-link">View Employee (SE)</a>
+        </div>
+    </div>
+ </div>
+</div>
+{% elif role == 'HR' %}
+ <div class="container mt-4">
+     <h3>Insertion</h3>
+     <div class="row">
+         <div class="col-md-4">
+             <a href="/add_hr_data" class="btn btn-primary btn-block">Add Human Resources's Data</a>
+         </div>
+         <div class="col-md-4">
+             <a href="/add_emp_hr" class="btn btn-primary btn-block">Add Humar Resources Employee</a>
+         </div>
+         <div class="col-md-4">
+             <a href="/add_emp_pr" class="btn btn-primary btn-block">Add Pay Roll Employee</a>
+         </div>
+     </div>
+ </div>
+ <div class="container mt-4">
+     <h3>Read and Delete</h3>
+     <div class="row">
+         <div class="col-md-3">
+             <a href="/view_emp_se" class="btn btn-success btn-block">View Software Engineer Employee</a>
+         </div>
+         <div class="col-md-3">
+            <a href="/view_hr_data" class="btn btn-success btn-block">View Human Resources's Data</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/view_emp_hr" class="btn btn-success btn-block">View Humar Resources Employee</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/view_emp_pr" class="btn btn-success btn-block">View Pay Roll Employee</a>
+        </div>
+     </div>
+ </div>
+ <div class="container mt-4">
+    <h3>Updation</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <!-- <a href="/view_login_credentials" class="btn btn-success btn-block">View Login Credentials</a> -->
+            <a href="/update_hr_data" class="data-update-link">Update HR Data</a>
+        </div>
+        <div class="col-md-4">
+            <!-- <a href="/view_login_credentials" class="btn btn-success btn-block">View Login Credentials</a> -->
+            <a href="/update_emp_hr" class="data-update-link">Update Employee HR</a>
+        </div><div class="col-md-4">
+            <!-- <a href="/view_login_credentials" class="btn btn-success btn-block">View Login Credentials</a> -->
+            <a href="/update_emp_pr" class="data-update-link">Update Employee PR</a>
+        </div>
+    </div>
+</div>
+{% elif role == 'PR' %}
+ <div class="container mt-4">
+     <h3>Insertion</h3>
+     <div class="row">
+         <div class="col-md-4">
+             <a href="/add_emp_pr" class="btn btn-primary btn-block">Add Pay Roll Employee</a>
+         </div>
+         <div class="col-md-4">
+             <a href="/add_pr_data" class="btn btn-primary btn-block">Add Pay Roll's Data</a>
+         </div>
+     </div>
+ </div>
+ <div class="container mt-4">
+     <h3>Read and Delete</h3>
+     <div class="row">
+         <div class="col-md-6">
+             <a href="/view_emp_se" class="btn btn-success btn-block">View Software Engineer Employee</a>
+         </div>
+         <div class="col-md-6">
+             <a href="/view_emp_hr" class="btn btn-success btn-block">View Human Resource Employee</a>
+         </div>
+         <div class="col-md-6">
+            <a href="/view_emp_pr" class="btn btn-success btn-block">View Pay Roll Employee</a>
+        </div>
+        <div class="col-md-6">
+            <a href="/view_pr_data" class="btn btn-success btn-block">View Pay Roll's Data</a>
+        </div>
+     </div>
+ </div>
+ <div class="container mt-4">
+    <h3>Updation</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <a href="/update_pr_data" class="data-update-link">Update PR Data</a>
+        </div>
+        <div class="col-md-6">
+            <a href="/update_emp_pr" class="data-update-link">Update Employee (PR)</a>
+        </div>
+    </div>
+ </div>
+{% elif role == 'General' %}
+ <div class="container mt-4">
+     <h3>Read and Delete</h3>
+     <div class="row">
+         <div class="col-md-4">
+             <a href="/view_emp_se" class="btn btn-success btn-block">View Software Engineer Employee</a>
+         </div>
+         <div class="col-md-4">
+             <a href="/view_emp_hr" class="btn btn-success btn-block">View Human Resource Employee</a>
+         </div>
+         <div class="col-md-4">
+             <a href="/view_emp_pr" class="btn btn-success btn-block">View Pay Roll Employee</a>
+         </div>
+     </div>
+ </div>
+{% elif role == 'Admin' %}
+ <div class="container mt-4">
+     <h3>Read and Delete</h3>
+     <div class="row">
+         <div class="col-md-3">
+             <a href="/view_emp_se" class="btn btn-success btn-block">View Software Engineer Employee</a>
+         </div>
+         <div class="col-md-3">
+             <a href="/view_emp_hr" class="btn btn-success btn-block">View Human Resource Employee</a>
+         </div>
+         <div class="col-md-3">
+             <a href="/view_emp_pr" class="btn btn-success btn-block">View Pay Roll Employee</a>
+         </div>
+         <div class="col-md-3">
+            <a href="/view_pr_data" class="btn btn-success btn-block">View Pay Roll's Data</a>
+        </div><div class="col-md-3">
+            <a href="/view_hr_data" class="btn btn-success btn-block">View Human Resource's Data</a>
+        </div><div class="col-md-3">
+            <a href="/view_se_data" class="btn btn-success btn-block">View Software Engineering's Data</a>
+        </div>
+         <div class="col-md-3">
+            <a href="/view_login_credentials" class="btn btn-success btn-block">View Login Credentials</a>
+        </div>
+     </div>
+ </div>
+ <div class="container mt-4">
+     <h3>Insertion</h3>
+     <div class="row">
+        <div class="col-md-4">
+            <a href="/add_emp_se" class="btn btn-primary btn-block">Add Software Engineers Employee</a>
+        </div>
+        <div class="col-md-4">
+            <a href="/add_emp_hr" class="btn btn-primary btn-block">Add Humar Resources Employee</a>
+        </div>
+        <div class="col-md-4">
+            <a href="/add_emp_pr" class="btn btn-primary btn-block">Add Pay Roll Employee</a>
+        </div>
+        <div class="col-md-6">
+           <a href="/add_se_data" class="btn btn-primary btn-block">Add Software Engineer's Data</a>
+       </div>
+       <div class="col-md-4">
+           <a href="/add_pr_data" class="btn btn-primary btn-block">Add Pay Roll's Data</a>
+       </div>
+       <div class="col-md-4">
+           <a href="/add_hr_data" class="btn btn-primary btn-block">Add Human Resources's Data</a>
+       </div>
+    </div>
+ </div>
+ <div class="container mt-4">
+    <h3>Updation</h3>
+    <div class="row">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="/update_emp_pr" class="data-update-link">Update Employee (PR)</a>
+            </div>
+            <div class="col-md-4">
+                <a href="update_emp_se" class="data-update-link">Update Employee (SE)</a>
+            </div>
+            <div class="col-md-4">
+                <a href="update_emp_hr" class="data-update-link">Update Employee (HR)</a>
+            </div>
+                <a href="update_se_data" class="data-update-link">Update Software Engineer's Data</a>
+            </div><div class="col-md-4">
+                <a href="update_pr_data" class="data-update-link">Update Pay Roll's Data</a>
+            </div><div class="col-md-4">
+                <a href="update_hr_data" class="data-update-link">Update Human Resources's Data</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endif %}
+
+    
+    </div>
+    <footer>
+        <a href="/logout" class="logout-link">Logout</a>
+    </footer>
+</body>
+</html>
