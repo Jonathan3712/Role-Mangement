@@ -1,0 +1,525 @@
+2024-03-14 14:46:00,122 INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-14 14:46:00,122 INFO in _internal: [33mPress CTRL+C to quit[0m
+2024-03-14 14:46:00,122 INFO in _internal:  * Restarting with stat
+2024-03-14 14:46:00,287 WARNING in _internal:  * Debugger is active!
+2024-03-14 14:46:00,293 INFO in _internal:  * Debugger PIN: 811-005-653
+2024-03-14 14:46:12,736 INFO in main: GET http://127.0.0.1:5000/ Host: 127.0.0.1:5000
+Sec-Fetch-Site: none
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNDxw.ygb3xK6Hal3N9jyxL9CQNysjnQo
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+
+
+2024-03-14 14:46:12,736 INFO in main: User accessed the home page
+2024-03-14 14:46:12,738 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 651
+
+
+2024-03-14 14:46:12,738 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:46:12] "GET / HTTP/1.1" 200 -
+2024-03-14 14:46:12,742 INFO in main: GET http://127.0.0.1:5000/static/style.css Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNDxw.ygb3xK6Hal3N9jyxL9CQNysjnQo
+Connection: keep-alive
+Sec-Fetch-Mode: no-cors
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/
+Sec-Fetch-Dest: style
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+
+
+2024-03-14 14:46:12,743 INFO in main: 404 NOT FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+
+
+2024-03-14 14:46:12,743 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:46:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-03-14 14:46:18,520 INFO in main: GET http://127.0.0.1:5000/login Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNDxw.ygb3xK6Hal3N9jyxL9CQNysjnQo
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:46:18,520 INFO in main: User accessed the home page
+2024-03-14 14:46:18,524 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 968
+
+
+2024-03-14 14:46:18,525 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:46:18] "GET /login HTTP/1.1" 200 -
+2024-03-14 14:46:24,422 INFO in main: POST http://127.0.0.1:5000/login Host: 127.0.0.1:5000
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Accept-Encoding: gzip, deflate
+Sec-Fetch-Mode: navigate
+Content-Type: application/x-www-form-urlencoded
+Origin: http://127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/login
+Upgrade-Insecure-Requests: 1
+Content-Length: 33
+Connection: keep-alive
+Sec-Fetch-Dest: document
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNDxw.ygb3xK6Hal3N9jyxL9CQNysjnQo
+
+
+2024-03-14 14:46:24,426 INFO in main: 302 FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Location: /dashboard
+
+
+2024-03-14 14:46:24,426 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:46:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-03-14 14:46:24,434 INFO in main: GET http://127.0.0.1:5000/dashboard Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://127.0.0.1:5000/login
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNGAA.JDxDZJTWSLm1uYnhXHW78HQXK2c
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:46:24,440 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 5032
+
+
+2024-03-14 14:46:24,441 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:46:24] "GET /dashboard HTTP/1.1" 200 -
+2024-03-14 14:46:38,704 INFO in main: GET http://127.0.0.1:5000/view_login_credentials Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/dashboard
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNGAA.JDxDZJTWSLm1uYnhXHW78HQXK2c
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:46:38,705 INFO in main: User accessed the home page
+2024-03-14 14:46:38,711 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 3850
+
+
+2024-03-14 14:46:38,711 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:46:38] "GET /view_login_credentials HTTP/1.1" 200 -
+2024-03-14 14:46:59,553 INFO in main: POST http://127.0.0.1:5000/update_user_role Host: 127.0.0.1:5000
+Accept: */*
+Sec-Fetch-Site: same-origin
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Accept-Encoding: gzip, deflate
+Sec-Fetch-Mode: cors
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryv9QLQYhBN3fCoGEJ
+Origin: http://127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/view_login_credentials
+Content-Length: 244
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNGAA.JDxDZJTWSLm1uYnhXHW78HQXK2c
+
+
+2024-03-14 14:46:59,559 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 49
+
+
+2024-03-14 14:46:59,560 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:46:59] "POST /update_user_role HTTP/1.1" 200 -
+2024-03-14 14:47:05,800 INFO in main: GET http://127.0.0.1:5000/dashboard Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/view_login_credentials
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNGAA.JDxDZJTWSLm1uYnhXHW78HQXK2c
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:47:05,800 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 5032
+
+
+2024-03-14 14:47:05,801 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:05] "GET /dashboard HTTP/1.1" 200 -
+2024-03-14 14:47:07,919 INFO in main: GET http://127.0.0.1:5000/logout Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/dashboard
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfNGAA.JDxDZJTWSLm1uYnhXHW78HQXK2c
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:47:07,919 INFO in main: 302 FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 199
+Location: /login
+
+
+2024-03-14 14:47:07,919 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-03-14 14:47:07,928 INFO in main: GET http://127.0.0.1:5000/login Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/dashboard
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:47:07,928 INFO in main: User accessed the home page
+2024-03-14 14:47:07,928 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 968
+
+
+2024-03-14 14:47:07,928 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:07] "GET /login HTTP/1.1" 200 -
+2024-03-14 14:47:13,125 INFO in main: POST http://127.0.0.1:5000/login Host: 127.0.0.1:5000
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Accept-Encoding: gzip, deflate
+Sec-Fetch-Mode: navigate
+Content-Type: application/x-www-form-urlencoded
+Origin: http://127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/login
+Upgrade-Insecure-Requests: 1
+Content-Length: 33
+Connection: keep-alive
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:47:13,127 INFO in main: 302 FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Location: /dashboard
+
+
+2024-03-14 14:47:13,127 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-03-14 14:47:13,250 INFO in main: GET http://127.0.0.1:5000/dashboard Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://127.0.0.1:5000/login
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGMQ.EybDiLMgOJ9hmoHYTof7x_VQD9U
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:47:13,251 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 3113
+
+
+2024-03-14 14:47:13,251 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:13] "GET /dashboard HTTP/1.1" 200 -
+2024-03-14 14:47:22,703 INFO in main: GET http://127.0.0.1:5000/add_se_data Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/dashboard
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGMQ.EybDiLMgOJ9hmoHYTof7x_VQD9U
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:47:22,703 INFO in main: User accessed the home page
+2024-03-14 14:47:22,705 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 986
+
+
+2024-03-14 14:47:22,706 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:22] "GET /add_se_data HTTP/1.1" 200 -
+2024-03-14 14:47:45,722 INFO in main: POST http://127.0.0.1:5000/insert_se_data Host: 127.0.0.1:5000
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Accept-Encoding: gzip, deflate
+Sec-Fetch-Mode: navigate
+Content-Type: application/x-www-form-urlencoded
+Origin: http://127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/add_se_data
+Upgrade-Insecure-Requests: 1
+Content-Length: 76
+Connection: keep-alive
+Sec-Fetch-Dest: document
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGMQ.EybDiLMgOJ9hmoHYTof7x_VQD9U
+
+
+2024-03-14 14:47:45,728 INFO in main: User accessed the home page
+2024-03-14 14:47:45,728 INFO in main: 302 FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Location: /dashboard
+
+
+2024-03-14 14:47:45,728 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:45] "[32mPOST /insert_se_data HTTP/1.1[0m" 302 -
+2024-03-14 14:47:45,733 INFO in main: GET http://127.0.0.1:5000/dashboard Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://127.0.0.1:5000/add_se_data
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Cookie: session=.eJwti0EKgDAMBL9S9-wLvAn6Ao8ikmpEISo06UGKf7eKp90ddhLGRUhXVlR9grMc0DhNrIoSDRm57VAOxnMudrquHT9q5IXdf12iyFVguIcS4RRGha7NfszmQfu760CeRTbcDws6J3Y.ZfNGUQ.98FjOIRruH8jk-1gehiwL956hK4
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:47:45,733 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 3113
+
+
+2024-03-14 14:47:45,733 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:45] "GET /dashboard HTTP/1.1" 200 -
+2024-03-14 14:47:51,267 INFO in main: GET http://127.0.0.1:5000/view_se_data Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/dashboard
+Cookie: session=.eJwti0EKgDAMBL9S9-wLvAn6Ao8ikmpEISo06UGKf7eKp90ddhLGRUhXVlR9grMc0DhNrIoSDRm57VAOxnMudrquHT9q5IXdf12iyFVguIcS4RRGha7NfszmQfu760CeRTbcDws6J3Y.ZfNGUQ.98FjOIRruH8jk-1gehiwL956hK4
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:47:51,268 INFO in main: User accessed the home page
+2024-03-14 14:47:51,274 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 1550
+
+
+2024-03-14 14:47:51,275 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:47:51] "GET /view_se_data HTTP/1.1" 200 -
+2024-03-14 14:48:05,132 INFO in main: GET http://127.0.0.1:5000/dashboard Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/view_se_data
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGVw.qFThGY4Tq9cEl7AEOHBzVLR2u48
+Sec-Fetch-Dest: document
+
+
+2024-03-14 14:48:05,132 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 3113
+
+
+2024-03-14 14:48:05,132 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 14:48:05] "GET /dashboard HTTP/1.1" 200 -
+2024-03-14 23:10:04,534 INFO in main: GET http://127.0.0.1:5000/ Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/dashboard
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGVw.qFThGY4Tq9cEl7AEOHBzVLR2u48
+Sec-Fetch-Dest: document
+
+
+2024-03-14 23:10:04,535 INFO in main: User accessed the home page
+2024-03-14 23:10:04,536 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 651
+
+
+2024-03-14 23:10:04,537 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:04] "GET / HTTP/1.1" 200 -
+2024-03-14 23:10:04,540 INFO in main: GET http://127.0.0.1:5000/static/style.css Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGVw.qFThGY4Tq9cEl7AEOHBzVLR2u48
+Connection: keep-alive
+Sec-Fetch-Mode: no-cors
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/
+Sec-Fetch-Dest: style
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+
+
+2024-03-14 23:10:04,541 INFO in main: 404 NOT FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+
+
+2024-03-14 23:10:04,541 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:04] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2024-03-14 23:10:04,580 INFO in main: GET http://127.0.0.1:5000/favicon.ico Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGVw.qFThGY4Tq9cEl7AEOHBzVLR2u48
+Connection: keep-alive
+Sec-Fetch-Mode: no-cors
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/
+Sec-Fetch-Dest: image
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+
+
+2024-03-14 23:10:04,580 INFO in main: 404 NOT FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+
+
+2024-03-14 23:10:04,580 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-14 23:10:05,776 INFO in main: GET http://127.0.0.1:5000/login Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGVw.qFThGY4Tq9cEl7AEOHBzVLR2u48
+Sec-Fetch-Dest: document
+
+
+2024-03-14 23:10:05,776 INFO in main: User accessed the home page
+2024-03-14 23:10:05,776 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 968
+
+
+2024-03-14 23:10:05,776 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:05] "GET /login HTTP/1.1" 200 -
+2024-03-14 23:10:08,869 INFO in main: POST http://127.0.0.1:5000/login Host: 127.0.0.1:5000
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Accept-Encoding: gzip, deflate
+Sec-Fetch-Mode: navigate
+Content-Type: application/x-www-form-urlencoded
+Origin: http://127.0.0.1:5000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Referer: http://127.0.0.1:5000/login
+Upgrade-Insecure-Requests: 1
+Content-Length: 33
+Connection: keep-alive
+Sec-Fetch-Dest: document
+Cookie: session=eyJyb2xlIjoiU0UiLCJ1c2VybmFtZSI6IkFyYWJlbGxpIn0.ZfNGVw.qFThGY4Tq9cEl7AEOHBzVLR2u48
+
+
+2024-03-14 23:10:08,919 INFO in main: 302 FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Location: /dashboard
+
+
+2024-03-14 23:10:08,920 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-03-14 23:10:08,928 INFO in main: GET http://127.0.0.1:5000/dashboard Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://127.0.0.1:5000/login
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfO8EA.L_vgjd5HXvC7gmjlI9BMTKfPfJg
+Sec-Fetch-Dest: document
+
+
+2024-03-14 23:10:08,929 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 5032
+
+
+2024-03-14 23:10:08,929 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:08] "GET /dashboard HTTP/1.1" 200 -
+2024-03-14 23:10:10,011 INFO in main: GET http://127.0.0.1:5000/view_login_credentials Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/dashboard
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfO8EA.L_vgjd5HXvC7gmjlI9BMTKfPfJg
+Sec-Fetch-Dest: document
+
+
+2024-03-14 23:10:10,013 INFO in main: User accessed the home page
+2024-03-14 23:10:10,014 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 3850
+
+
+2024-03-14 23:10:10,015 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:10] "GET /view_login_credentials HTTP/1.1" 200 -
+2024-03-14 23:10:18,603 INFO in main: GET http://127.0.0.1:5000/view_emp_se Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/dashboard
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfO8EA.L_vgjd5HXvC7gmjlI9BMTKfPfJg
+Sec-Fetch-Dest: document
+
+
+2024-03-14 23:10:18,610 INFO in main: User accessed the home page
+2024-03-14 23:10:18,620 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 2016
+
+
+2024-03-14 23:10:18,620 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:18] "GET /view_emp_se HTTP/1.1" 200 -
+2024-03-14 23:10:21,410 INFO in main: GET http://127.0.0.1:5000/view_emp_pr Host: 127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Referer: http://127.0.0.1:5000/dashboard
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6IkpvbmF0aGFuIn0.ZfO8EA.L_vgjd5HXvC7gmjlI9BMTKfPfJg
+Sec-Fetch-Dest: document
+
+
+2024-03-14 23:10:21,413 INFO in main: User accessed the home page
+2024-03-14 23:10:21,415 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 1387
+
+
+2024-03-14 23:10:21,415 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:21] "GET /view_emp_pr HTTP/1.1" 200 -
