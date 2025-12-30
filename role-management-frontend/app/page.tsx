@@ -14,7 +14,6 @@ export default function HomePage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    // fetch("http://localhost:8000/api/roles", { credentials: "include" })
     fetch("http://localhost:8000/api/roles")
       .then((res) => {
         if (!res.ok) {
