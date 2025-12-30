@@ -523,3 +523,740 @@ Content-Length: 1387
 
 
 2024-03-14 23:10:21,415 INFO in _internal: 127.0.0.1 - - [14/Mar/2024 23:10:21] "GET /view_emp_pr HTTP/1.1" 200 -
+2025-12-30 12:35:54,628 INFO in main: Connected to MySQL database successfully.
+2025-12-30 12:35:55,461 INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-30 12:35:55,461 INFO in _internal: [33mPress CTRL+C to quit[0m
+2025-12-30 12:35:55,462 INFO in _internal:  * Restarting with stat
+2025-12-30 12:35:55,616 INFO in main: Connected to MySQL database successfully.
+2025-12-30 12:35:55,638 WARNING in _internal:  * Debugger is active!
+2025-12-30 12:35:55,645 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:00:32,514 INFO in _internal:  * Detected change in '/Users/jonathan/Documents/Developments/Daxwell/Role-Mangement/main.py', reloading
+2025-12-30 13:00:32,685 INFO in _internal:  * Restarting with stat
+2025-12-30 13:00:33,016 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:00:33,047 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:00:33,055 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:02:05,067 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:02:05,107 INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-30 13:02:05,107 INFO in _internal: [33mPress CTRL+C to quit[0m
+2025-12-30 13:02:05,108 INFO in _internal:  * Restarting with stat
+2025-12-30 13:02:05,241 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:02:05,264 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:02:05,270 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:12:10,481 INFO in _internal:  * Detected change in '/Users/jonathan/Documents/Developments/Daxwell/Role-Mangement/main.py', reloading
+2025-12-30 13:12:10,558 INFO in _internal:  * Restarting with stat
+2025-12-30 13:12:10,997 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:12:11,028 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:12:11,035 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:12:39,247 INFO in _internal:  * Detected change in '/Users/jonathan/Documents/Developments/Daxwell/Role-Mangement/main.py', reloading
+2025-12-30 13:12:39,307 INFO in _internal:  * Restarting with stat
+2025-12-30 13:12:39,623 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:12:39,652 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:12:39,660 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:13:46,146 INFO in _internal:  * Detected change in '/Users/jonathan/Documents/Developments/Daxwell/Role-Mangement/main.py', reloading
+2025-12-30 13:13:46,218 INFO in _internal:  * Restarting with stat
+2025-12-30 13:13:46,493 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:13:46,521 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:13:46,529 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:15:54,708 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:15:54,751 INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-30 13:15:54,752 INFO in _internal: [33mPress CTRL+C to quit[0m
+2025-12-30 13:15:54,752 INFO in _internal:  * Restarting with stat
+2025-12-30 13:15:54,887 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:15:54,908 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:15:54,916 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:19:32,073 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:19:32,119 INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-30 13:19:32,119 INFO in _internal: [33mPress CTRL+C to quit[0m
+2025-12-30 13:19:32,120 INFO in _internal:  * Restarting with stat
+2025-12-30 13:19:32,268 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:19:32,290 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:19:32,297 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:22:32,562 INFO in _internal:  * Detected change in '/Users/jonathan/Documents/Developments/Daxwell/Role-Mangement/main.py', reloading
+2025-12-30 13:22:32,650 INFO in _internal:  * Restarting with stat
+2025-12-30 13:22:33,034 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:22:33,067 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:22:33,074 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:23:38,577 INFO in _internal:  * Detected change in '/Users/jonathan/Documents/Developments/Daxwell/Role-Mangement/main.py', reloading
+2025-12-30 13:23:38,646 INFO in _internal:  * Restarting with stat
+2025-12-30 13:23:39,069 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:23:39,107 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:23:39,116 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:24:25,745 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:24:25,795 INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-12-30 13:24:25,795 INFO in _internal: [33mPress CTRL+C to quit[0m
+2025-12-30 13:24:25,796 INFO in _internal:  * Restarting with stat
+2025-12-30 13:24:25,928 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:24:25,949 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:24:25,955 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:24:42,739 INFO in main: GET http://127.0.0.1:8000/ping Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:24:42,740 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 4
+
+
+2025-12-30 13:24:42,741 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:24:42] "GET /ping HTTP/1.1" 200 -
+2025-12-30 13:24:42,905 INFO in main: GET http://127.0.0.1:8000/favicon.ico Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8000/ping
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:24:42,906 INFO in main: 404 NOT FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Access-Control-Allow-Origin: *
+
+
+2025-12-30 13:24:42,906 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:24:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-30 13:24:52,687 INFO in main: GET http://127.0.0.1:8000/api/roles Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:24:52,688 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:24:52,688 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:24:52] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:26:01,870 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:26:01,919 INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-12-30 13:26:01,919 INFO in _internal: [33mPress CTRL+C to quit[0m
+2025-12-30 13:26:01,920 INFO in _internal:  * Restarting with stat
+2025-12-30 13:26:02,057 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:26:02,080 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:26:02,086 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:26:07,764 INFO in main: GET http://127.0.0.1:8000/api/roles Host: 127.0.0.1:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:26:07,765 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:26:07,767 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:07] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:26:09,800 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: Pycharm-d9c3ebb5=5a88870c-cbb0-4f07-92ab-eeca62caa7ab; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX19uwHyrTvjXlcTeQ2l%2FFVLj%2BoOWJMnzQn8%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX19WMF1cVXY%2BzBMok27Zbs6wwWakfT4sI6Q%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX1%2FQGRLSnHHCGD1kk%2FajIXEZ4HyA90fmp%2BBGikBTLdqYvUd%2B%2FmMMuYQTq40ZNDSi6p07y3MyQVzK3g%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BrtPf4StpIi3sBc9LaLA6HAUSg0Pyk27CcVd8jxu2nqCcV1PHSAF2TUkMBNQBnCHP%2BMZKnSIJCYtJNrWBcFxfrc238p294pUJRfOW9wAWTgP5mfSmaeT9zvbBI1cwF%2B0KIomSzvy9l2urIn9uudy7Ocd9M9zaTiS8%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX1%2BV1wNHTQk%2FRd4O0hFYIqoi7wqa9YCYRvZ9Z7f34Gr5DsXcS4DlFPEvia6V6wQM%2FkNEf%2BC9%2FhDOzJkDcANKtP0m8hsH1Q0Uh3gnSzk95qbS21sBfqGZe6%2FEpj%2Bc4y3PsDLL7%2B9EMz1FCmoXt1xf5Qii2EVeCXCVMbE%3D; rl_session=RudderEncrypt%3AU2FsdGVkX19wTj2mnD2YoBvu4B5QSyhwrZfYFL1ud4KEQ4g1oS1CfiUBdijUi69CZOnfrCOwZ5cD7l7iEjl9Nan%2Fg6RVpSFpI%2F%2BiQiDoSR3T0U2sXs9QHYDodwIl9g9dRvUEvvlQ9oUrMl2jaTEBdA%3D%3D; ph_phc_4URIAm1uYfJO7j8kWSe0J8lc8IqnstRLS7Jx8NcakHo_posthog=%7B%22distinct_id%22%3A%223551b14b8327317db98d64c442730368df9d7e8124ff693ea00ab0c5ef8a5fe6%23bedc7380-7382-4595-8299-969d958b0015%22%2C%22%24sesid%22%3A%5B1761245983580%2C%22019a1270-f36e-7f22-97af-b593f00e2461%22%2C1761245983580%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22http%3A%2F%2Flocalhost%3A5678%2Fsetup%22%7D%7D
+
+
+2025-12-30 13:26:09,801 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:26:09,802 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:09] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:26:10,597 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: Pycharm-d9c3ebb5=5a88870c-cbb0-4f07-92ab-eeca62caa7ab; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX19uwHyrTvjXlcTeQ2l%2FFVLj%2BoOWJMnzQn8%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX19WMF1cVXY%2BzBMok27Zbs6wwWakfT4sI6Q%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX1%2FQGRLSnHHCGD1kk%2FajIXEZ4HyA90fmp%2BBGikBTLdqYvUd%2B%2FmMMuYQTq40ZNDSi6p07y3MyQVzK3g%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BrtPf4StpIi3sBc9LaLA6HAUSg0Pyk27CcVd8jxu2nqCcV1PHSAF2TUkMBNQBnCHP%2BMZKnSIJCYtJNrWBcFxfrc238p294pUJRfOW9wAWTgP5mfSmaeT9zvbBI1cwF%2B0KIomSzvy9l2urIn9uudy7Ocd9M9zaTiS8%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX1%2BV1wNHTQk%2FRd4O0hFYIqoi7wqa9YCYRvZ9Z7f34Gr5DsXcS4DlFPEvia6V6wQM%2FkNEf%2BC9%2FhDOzJkDcANKtP0m8hsH1Q0Uh3gnSzk95qbS21sBfqGZe6%2FEpj%2Bc4y3PsDLL7%2B9EMz1FCmoXt1xf5Qii2EVeCXCVMbE%3D; rl_session=RudderEncrypt%3AU2FsdGVkX19wTj2mnD2YoBvu4B5QSyhwrZfYFL1ud4KEQ4g1oS1CfiUBdijUi69CZOnfrCOwZ5cD7l7iEjl9Nan%2Fg6RVpSFpI%2F%2BiQiDoSR3T0U2sXs9QHYDodwIl9g9dRvUEvvlQ9oUrMl2jaTEBdA%3D%3D; ph_phc_4URIAm1uYfJO7j8kWSe0J8lc8IqnstRLS7Jx8NcakHo_posthog=%7B%22distinct_id%22%3A%223551b14b8327317db98d64c442730368df9d7e8124ff693ea00ab0c5ef8a5fe6%23bedc7380-7382-4595-8299-969d958b0015%22%2C%22%24sesid%22%3A%5B1761245983580%2C%22019a1270-f36e-7f22-97af-b593f00e2461%22%2C1761245983580%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22http%3A%2F%2Flocalhost%3A5678%2Fsetup%22%7D%7D
+
+
+2025-12-30 13:26:10,597 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:26:10,597 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:10] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:26:10,746 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: Pycharm-d9c3ebb5=5a88870c-cbb0-4f07-92ab-eeca62caa7ab; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX19uwHyrTvjXlcTeQ2l%2FFVLj%2BoOWJMnzQn8%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX19WMF1cVXY%2BzBMok27Zbs6wwWakfT4sI6Q%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX1%2FQGRLSnHHCGD1kk%2FajIXEZ4HyA90fmp%2BBGikBTLdqYvUd%2B%2FmMMuYQTq40ZNDSi6p07y3MyQVzK3g%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BrtPf4StpIi3sBc9LaLA6HAUSg0Pyk27CcVd8jxu2nqCcV1PHSAF2TUkMBNQBnCHP%2BMZKnSIJCYtJNrWBcFxfrc238p294pUJRfOW9wAWTgP5mfSmaeT9zvbBI1cwF%2B0KIomSzvy9l2urIn9uudy7Ocd9M9zaTiS8%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX1%2BV1wNHTQk%2FRd4O0hFYIqoi7wqa9YCYRvZ9Z7f34Gr5DsXcS4DlFPEvia6V6wQM%2FkNEf%2BC9%2FhDOzJkDcANKtP0m8hsH1Q0Uh3gnSzk95qbS21sBfqGZe6%2FEpj%2Bc4y3PsDLL7%2B9EMz1FCmoXt1xf5Qii2EVeCXCVMbE%3D; rl_session=RudderEncrypt%3AU2FsdGVkX19wTj2mnD2YoBvu4B5QSyhwrZfYFL1ud4KEQ4g1oS1CfiUBdijUi69CZOnfrCOwZ5cD7l7iEjl9Nan%2Fg6RVpSFpI%2F%2BiQiDoSR3T0U2sXs9QHYDodwIl9g9dRvUEvvlQ9oUrMl2jaTEBdA%3D%3D; ph_phc_4URIAm1uYfJO7j8kWSe0J8lc8IqnstRLS7Jx8NcakHo_posthog=%7B%22distinct_id%22%3A%223551b14b8327317db98d64c442730368df9d7e8124ff693ea00ab0c5ef8a5fe6%23bedc7380-7382-4595-8299-969d958b0015%22%2C%22%24sesid%22%3A%5B1761245983580%2C%22019a1270-f36e-7f22-97af-b593f00e2461%22%2C1761245983580%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22http%3A%2F%2Flocalhost%3A5678%2Fsetup%22%7D%7D
+
+
+2025-12-30 13:26:10,747 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:26:10,747 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:10] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:26:10,935 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: Pycharm-d9c3ebb5=5a88870c-cbb0-4f07-92ab-eeca62caa7ab; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX19uwHyrTvjXlcTeQ2l%2FFVLj%2BoOWJMnzQn8%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX19WMF1cVXY%2BzBMok27Zbs6wwWakfT4sI6Q%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX1%2FQGRLSnHHCGD1kk%2FajIXEZ4HyA90fmp%2BBGikBTLdqYvUd%2B%2FmMMuYQTq40ZNDSi6p07y3MyQVzK3g%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BrtPf4StpIi3sBc9LaLA6HAUSg0Pyk27CcVd8jxu2nqCcV1PHSAF2TUkMBNQBnCHP%2BMZKnSIJCYtJNrWBcFxfrc238p294pUJRfOW9wAWTgP5mfSmaeT9zvbBI1cwF%2B0KIomSzvy9l2urIn9uudy7Ocd9M9zaTiS8%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX1%2BV1wNHTQk%2FRd4O0hFYIqoi7wqa9YCYRvZ9Z7f34Gr5DsXcS4DlFPEvia6V6wQM%2FkNEf%2BC9%2FhDOzJkDcANKtP0m8hsH1Q0Uh3gnSzk95qbS21sBfqGZe6%2FEpj%2Bc4y3PsDLL7%2B9EMz1FCmoXt1xf5Qii2EVeCXCVMbE%3D; rl_session=RudderEncrypt%3AU2FsdGVkX19wTj2mnD2YoBvu4B5QSyhwrZfYFL1ud4KEQ4g1oS1CfiUBdijUi69CZOnfrCOwZ5cD7l7iEjl9Nan%2Fg6RVpSFpI%2F%2BiQiDoSR3T0U2sXs9QHYDodwIl9g9dRvUEvvlQ9oUrMl2jaTEBdA%3D%3D; ph_phc_4URIAm1uYfJO7j8kWSe0J8lc8IqnstRLS7Jx8NcakHo_posthog=%7B%22distinct_id%22%3A%223551b14b8327317db98d64c442730368df9d7e8124ff693ea00ab0c5ef8a5fe6%23bedc7380-7382-4595-8299-969d958b0015%22%2C%22%24sesid%22%3A%5B1761245983580%2C%22019a1270-f36e-7f22-97af-b593f00e2461%22%2C1761245983580%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22http%3A%2F%2Flocalhost%3A5678%2Fsetup%22%7D%7D
+
+
+2025-12-30 13:26:10,935 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:26:10,935 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:10] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:26:12,457 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: Pycharm-d9c3ebb5=5a88870c-cbb0-4f07-92ab-eeca62caa7ab; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX19uwHyrTvjXlcTeQ2l%2FFVLj%2BoOWJMnzQn8%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX19WMF1cVXY%2BzBMok27Zbs6wwWakfT4sI6Q%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX1%2FQGRLSnHHCGD1kk%2FajIXEZ4HyA90fmp%2BBGikBTLdqYvUd%2B%2FmMMuYQTq40ZNDSi6p07y3MyQVzK3g%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BrtPf4StpIi3sBc9LaLA6HAUSg0Pyk27CcVd8jxu2nqCcV1PHSAF2TUkMBNQBnCHP%2BMZKnSIJCYtJNrWBcFxfrc238p294pUJRfOW9wAWTgP5mfSmaeT9zvbBI1cwF%2B0KIomSzvy9l2urIn9uudy7Ocd9M9zaTiS8%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX1%2BV1wNHTQk%2FRd4O0hFYIqoi7wqa9YCYRvZ9Z7f34Gr5DsXcS4DlFPEvia6V6wQM%2FkNEf%2BC9%2FhDOzJkDcANKtP0m8hsH1Q0Uh3gnSzk95qbS21sBfqGZe6%2FEpj%2Bc4y3PsDLL7%2B9EMz1FCmoXt1xf5Qii2EVeCXCVMbE%3D; rl_session=RudderEncrypt%3AU2FsdGVkX19wTj2mnD2YoBvu4B5QSyhwrZfYFL1ud4KEQ4g1oS1CfiUBdijUi69CZOnfrCOwZ5cD7l7iEjl9Nan%2Fg6RVpSFpI%2F%2BiQiDoSR3T0U2sXs9QHYDodwIl9g9dRvUEvvlQ9oUrMl2jaTEBdA%3D%3D; ph_phc_4URIAm1uYfJO7j8kWSe0J8lc8IqnstRLS7Jx8NcakHo_posthog=%7B%22distinct_id%22%3A%223551b14b8327317db98d64c442730368df9d7e8124ff693ea00ab0c5ef8a5fe6%23bedc7380-7382-4595-8299-969d958b0015%22%2C%22%24sesid%22%3A%5B1761245983580%2C%22019a1270-f36e-7f22-97af-b593f00e2461%22%2C1761245983580%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22http%3A%2F%2Flocalhost%3A5678%2Fsetup%22%7D%7D
+
+
+2025-12-30 13:26:12,457 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:26:12,457 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:12] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:26:24,467 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: Pycharm-d9c3ebb5=5a88870c-cbb0-4f07-92ab-eeca62caa7ab; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX19uwHyrTvjXlcTeQ2l%2FFVLj%2BoOWJMnzQn8%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX19WMF1cVXY%2BzBMok27Zbs6wwWakfT4sI6Q%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX1%2FQGRLSnHHCGD1kk%2FajIXEZ4HyA90fmp%2BBGikBTLdqYvUd%2B%2FmMMuYQTq40ZNDSi6p07y3MyQVzK3g%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BrtPf4StpIi3sBc9LaLA6HAUSg0Pyk27CcVd8jxu2nqCcV1PHSAF2TUkMBNQBnCHP%2BMZKnSIJCYtJNrWBcFxfrc238p294pUJRfOW9wAWTgP5mfSmaeT9zvbBI1cwF%2B0KIomSzvy9l2urIn9uudy7Ocd9M9zaTiS8%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX1%2BV1wNHTQk%2FRd4O0hFYIqoi7wqa9YCYRvZ9Z7f34Gr5DsXcS4DlFPEvia6V6wQM%2FkNEf%2BC9%2FhDOzJkDcANKtP0m8hsH1Q0Uh3gnSzk95qbS21sBfqGZe6%2FEpj%2Bc4y3PsDLL7%2B9EMz1FCmoXt1xf5Qii2EVeCXCVMbE%3D; rl_session=RudderEncrypt%3AU2FsdGVkX19wTj2mnD2YoBvu4B5QSyhwrZfYFL1ud4KEQ4g1oS1CfiUBdijUi69CZOnfrCOwZ5cD7l7iEjl9Nan%2Fg6RVpSFpI%2F%2BiQiDoSR3T0U2sXs9QHYDodwIl9g9dRvUEvvlQ9oUrMl2jaTEBdA%3D%3D; ph_phc_4URIAm1uYfJO7j8kWSe0J8lc8IqnstRLS7Jx8NcakHo_posthog=%7B%22distinct_id%22%3A%223551b14b8327317db98d64c442730368df9d7e8124ff693ea00ab0c5ef8a5fe6%23bedc7380-7382-4595-8299-969d958b0015%22%2C%22%24sesid%22%3A%5B1761245983580%2C%22019a1270-f36e-7f22-97af-b593f00e2461%22%2C1761245983580%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22http%3A%2F%2Flocalhost%3A5678%2Fsetup%22%7D%7D
+
+
+2025-12-30 13:26:24,468 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:26:24,468 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:24] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:26:27,781 INFO in main: GET http://127.0.0.1:8000/ping Host: 127.0.0.1:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:26:27,781 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 4
+
+
+2025-12-30 13:26:27,781 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:27] "GET /ping HTTP/1.1" 200 -
+2025-12-30 13:26:29,237 INFO in main: GET http://127.0.0.1:8000/api/roles Host: 127.0.0.1:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:26:29,238 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:26:29,239 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:26:29] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:30:24,457 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:30:24,517 INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-12-30 13:30:24,518 INFO in _internal: [33mPress CTRL+C to quit[0m
+2025-12-30 13:30:24,518 INFO in _internal:  * Restarting with stat
+2025-12-30 13:30:24,651 INFO in main: Connected to MySQL database successfully.
+2025-12-30 13:30:24,672 WARNING in _internal:  * Debugger is active!
+2025-12-30 13:30:24,678 INFO in _internal:  * Debugger PIN: 112-857-357
+2025-12-30 13:30:33,318 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:30:33,318 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:30:33,318 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:30:33] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:30:40,696 INFO in main: GET http://127.0.0.1:8000/ping Host: 127.0.0.1:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:30:40,698 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 4
+
+
+2025-12-30 13:30:40,699 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:30:40] "GET /ping HTTP/1.1" 200 -
+2025-12-30 13:30:42,755 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:30:42,755 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:30:42,756 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:30:42] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:30:42,864 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:30:42,864 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:30:42,864 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:30:42] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:30:43,725 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:30:43,726 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:30:43,726 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:30:43] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:30:45,925 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:30:45,926 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:30:45,926 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:30:45] "GET /api/roles HTTP/1.1" 200 -
+2025-12-30 13:36:42,454 INFO in main: GET http://127.0.0.1:8000/signup Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:36:42,455 INFO in main: User accessed the home page
+2025-12-30 13:36:42,463 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 1296
+
+
+2025-12-30 13:36:42,464 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:36:42] "GET /signup HTTP/1.1" 200 -
+2025-12-30 13:36:58,391 INFO in main: POST http://127.0.0.1:8000/signup Host: 127.0.0.1:8000
+Connection: keep-alive
+Content-Length: 37
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Origin: http://127.0.0.1:8000
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:8000/signup
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:36:58,494 INFO in main: 302 FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 199
+Location: /login
+
+
+2025-12-30 13:36:58,499 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:36:58] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-12-30 13:36:58,503 INFO in main: GET http://127.0.0.1:8000/login Host: 127.0.0.1:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Referer: http://127.0.0.1:8000/signup
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: session=eyJfZmxhc2hlcyI6W3siIHQiOlsic3VjY2VzcyIsIkFjY291bnQgY3JlYXRlZCBzdWNjZXNzZnVsbHkhIl19XX0.aVQp2g.rYkH8CnODV8n3vazKHPXhyIoMT0
+
+
+2025-12-30 13:36:58,504 INFO in main: User accessed the home page
+2025-12-30 13:36:58,509 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 1086
+
+
+2025-12-30 13:36:58,509 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:36:58] "GET /login HTTP/1.1" 200 -
+2025-12-30 13:37:03,635 INFO in main: POST http://127.0.0.1:8000/login Host: 127.0.0.1:8000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Origin: http://127.0.0.1:8000
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:8000/login
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:37:03,639 INFO in main: 302 FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Location: /dashboard
+
+
+2025-12-30 13:37:03,640 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:37:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-30 13:37:03,642 INFO in main: GET http://127.0.0.1:8000/dashboard Host: 127.0.0.1:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Referer: http://127.0.0.1:8000/login
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6InJhaiJ9.aVQp3w.980AIgEEaoJ0501GtVc405aPwuU
+
+
+2025-12-30 13:37:03,650 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 5027
+
+
+2025-12-30 13:37:03,650 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:37:03] "GET /dashboard HTTP/1.1" 200 -
+2025-12-30 13:37:08,338 INFO in main: GET http://127.0.0.1:8000/add_emp_se Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:8000/dashboard
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6InJhaiJ9.aVQp3w.980AIgEEaoJ0501GtVc405aPwuU
+
+
+2025-12-30 13:37:08,338 INFO in main: User accessed the home page
+2025-12-30 13:37:08,340 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 985
+
+
+2025-12-30 13:37:08,340 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:37:08] "GET /add_emp_se HTTP/1.1" 200 -
+2025-12-30 13:37:12,053 INFO in main: GET http://127.0.0.1:8000/view_emp_se Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:8000/dashboard
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6InJhaiJ9.aVQp3w.980AIgEEaoJ0501GtVc405aPwuU
+
+
+2025-12-30 13:37:12,087 INFO in main: User accessed the home page
+2025-12-30 13:37:12,099 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 1119
+
+
+2025-12-30 13:37:12,100 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:37:12] "GET /view_emp_se HTTP/1.1" 200 -
+2025-12-30 13:37:14,454 INFO in main: GET http://127.0.0.1:8000/dashboard Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:8000/view_emp_se
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6InJhaiJ9.aVQp3w.980AIgEEaoJ0501GtVc405aPwuU
+
+
+2025-12-30 13:37:14,455 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 5027
+
+
+2025-12-30 13:37:14,455 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:37:14] "GET /dashboard HTTP/1.1" 200 -
+2025-12-30 13:37:15,737 INFO in main: GET http://127.0.0.1:8000/ Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://127.0.0.1:8000/dashboard
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6InJhaiJ9.aVQp3w.980AIgEEaoJ0501GtVc405aPwuU
+
+
+2025-12-30 13:37:15,737 INFO in main: User accessed the home page
+2025-12-30 13:37:15,740 INFO in main: 200 OK Content-Type: text/html; charset=utf-8
+Content-Length: 651
+
+
+2025-12-30 13:37:15,740 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:37:15] "GET / HTTP/1.1" 200 -
+2025-12-30 13:37:15,755 INFO in main: GET http://127.0.0.1:8000/static/style.css Host: 127.0.0.1:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: http://127.0.0.1:8000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: session=eyJyb2xlIjoiQWRtaW4iLCJ1c2VybmFtZSI6InJhaiJ9.aVQp3w.980AIgEEaoJ0501GtVc405aPwuU
+
+
+2025-12-30 13:37:15,756 INFO in main: 404 NOT FOUND Content-Type: text/html; charset=utf-8
+Content-Length: 207
+Access-Control-Allow-Origin: *
+
+
+2025-12-30 13:37:15,756 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:37:15] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2025-12-30 13:37:22,315 INFO in main: GET http://localhost:8000/api/roles Host: localhost:8000
+Connection: keep-alive
+Sec-Ch-Ua-Platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2025-12-30 13:37:22,316 INFO in main: 200 OK Content-Type: application/json
+Content-Length: 273
+
+
+2025-12-30 13:37:22,316 INFO in _internal: 127.0.0.1 - - [30/Dec/2025 13:37:22] "GET /api/roles HTTP/1.1" 200 -

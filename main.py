@@ -1,12 +1,25 @@
+# from flask import Flask, flash, jsonify, render_template, request, redirect, url_for, session
+# import mysql.connector
+# import logging
+
 from flask import Flask, flash, jsonify, render_template, request, redirect, url_for, session
+from flask_cors import CORS
 import mysql.connector
 import logging
+
 # from logging.handlers import RotatingFileHandler
 # from flask import render_template, request, redirect, url_for, flash\
 
 app = Flask(__name__)
 app.secret_key = "b'\x94\xdd\xac\x84\xb6\xedy\x8c\x91c\xf8\x168l\xe9\xb4|>\xc8\xc3\x15XH\x1a'"
 
+# Allow Next.js dev server (localhost:3000) to call /api/* routes
+# CORS(
+#     app,
+#     resources={r"/api/*": {"origins": "http://localhost:3000"}},
+#     supports_credentials=True,
+# )
+CORS(app)
 
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.INFO,
@@ -25,13 +38,24 @@ def log_response_info(response):
 
 
 
+
+
 # Connect to MySQL database
-db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="suny"
-)
+db = None
+try:
+    db = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="Admin@3712",
+        database="suny"
+        )
+    app.logger.info("Connected to MySQL database successfully.")
+except mysql.connector.Error as e:
+    app.logger.error(f"Error connecting to MySQL: {e}")
+
+
+
+
 
 # Define routes
 @app.route('/')
@@ -88,38 +112,97 @@ def login():
     return render_template('login.html')
 
 
+def get_access_privileges_for_role(role: str):
+    """
+    Return a dictionary of table -> access based on user's role.
+    This makes the logic reusable for both HTML and JSON responses.
+    """
+    # Default: no access
+    privileges = {
+        'SE_Data': 'No Access',
+        'HR_Data': 'No Access',
+        'PR_Data': 'No Access',
+        'Emp_SE': 'No Access',
+        'Emp_HR': 'No Access',
+        'Emp_PR': 'No Access',
+        'LogIn_Credential': 'No Access',
+    }
+
+    if role == 'Admin':
+        for key in privileges.keys():
+            privileges[key] = 'Read/Write'
+    elif role == 'SE':
+        privileges['SE_Data'] = 'Read/Write'
+        privileges['Emp_SE'] = 'Read/Write'
+    elif role == 'HR':
+        privileges['HR_Data'] = 'Read/Write'
+        privileges['Emp_HR'] = 'Read/Write'
+        privileges['Emp_PR'] = 'Read/Write'
+        privileges['Emp_SE'] = 'Read'
+    elif role == 'PR':
+        privileges['PR_Data'] = 'Read/Write'
+        privileges['Emp_PR'] = 'Read/Write'
+        privileges['Emp_SE'] = 'Read'
+        privileges['Emp_HR'] = 'Read'
+    elif role == 'General':
+        privileges['Emp_SE'] = 'Read'
+        privileges['Emp_HR'] = 'Read'
+        privileges['Emp_PR'] = 'Read'
+
+    return privileges
+
+
+
+
+
+# @app.route('/dashboard')
+# def dashboard():
+#     if 'username' in session:
+#         # Implement access control logic here
+#         # Check user's role and determine access privileges
+#         access_privileges = {
+#             'SE_Data': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
+#             'HR_Data': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
+#             'PR_Data': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
+#             'Emp_SE': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
+#             'Emp_HR': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
+#             'Emp_PR': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
+#             'LogIn_Credential': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
+#             'SE_Data': 'Read/Write' if session['role'] == 'SE' else 'No Access',  # SE has read/write access, others have none
+#             'Emp_SE': 'Read/Write' if session['role'] == 'SE' else 'No Access',   # SE has read/write access, others have none
+#             'HR_Data': 'Read/Write' if session['role'] == 'HR' else 'No Access',
+#             'Emp_HR': 'Read/Write' if session['role'] == 'HR' else 'No Access',
+#             'Emp_PR': 'Read/Write' if session['role'] == 'HR' else 'No Access',
+#             'Emp_SE': 'Read' if session['role'] == 'HR' else 'No Access',
+#             'Emp_PR': 'Read/Write' if session['role'] == 'PR' else 'No Access',
+#             'PR_Data': 'Read/Write' if session['role'] == 'PR' else 'No Access',
+#             'Emp_SE': 'Read' if session['role'] == 'PR' else 'No Access',
+#             'Emp_HR': 'Read' if session['role'] == 'PR' else 'No Access',
+#             'Emp_SE': 'Read' if session['role'] == 'General' else 'No Access',
+#             'Emp_HR': 'Read' if session['role'] == 'General' else 'No Access',
+#             'Emp_PR': 'Read' if session['role'] == 'General' else 'No Access',
+#             # Add more access privileges based on user's role
+#         }
+#         return render_template('dashboard.html', username=session['username'], role=session['role'], access_privileges=access_privileges)
+#     app.logger.info('User accessed the home page')
+
+#     return redirect(url_for('login'))
+
 @app.route('/dashboard')
 def dashboard():
     if 'username' in session:
-        # Implement access control logic here
-        # Check user's role and determine access privileges
-        access_privileges = {
-            'SE_Data': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
-            'HR_Data': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
-            'PR_Data': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
-            'Emp_SE': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
-            'Emp_HR': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
-            'Emp_PR': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
-            'LogIn_Credential': 'Read/Write' if session['role'] == 'Admin' else 'No Access',
-            'SE_Data': 'Read/Write' if session['role'] == 'SE' else 'No Access',  # SE has read/write access, others have none
-            'Emp_SE': 'Read/Write' if session['role'] == 'SE' else 'No Access',   # SE has read/write access, others have none
-            'HR_Data': 'Read/Write' if session['role'] == 'HR' else 'No Access',
-            'Emp_HR': 'Read/Write' if session['role'] == 'HR' else 'No Access',
-            'Emp_PR': 'Read/Write' if session['role'] == 'HR' else 'No Access',
-            'Emp_SE': 'Read' if session['role'] == 'HR' else 'No Access',
-            'Emp_PR': 'Read/Write' if session['role'] == 'PR' else 'No Access',
-            'PR_Data': 'Read/Write' if session['role'] == 'PR' else 'No Access',
-            'Emp_SE': 'Read' if session['role'] == 'PR' else 'No Access',
-            'Emp_HR': 'Read' if session['role'] == 'PR' else 'No Access',
-            'Emp_SE': 'Read' if session['role'] == 'General' else 'No Access',
-            'Emp_HR': 'Read' if session['role'] == 'General' else 'No Access',
-            'Emp_PR': 'Read' if session['role'] == 'General' else 'No Access',
-            # Add more access privileges based on user's role
-        }
-        return render_template('dashboard.html', username=session['username'], role=session['role'], access_privileges=access_privileges)
-    app.logger.info('User accessed the home page')
+        role = session['role']
+        access_privileges = get_access_privileges_for_role(role)
+        return render_template(
+            'dashboard.html',
+            username=session['username'],
+            role=role,
+            access_privileges=access_privileges
+        )
 
+    app.logger.info('User attempted to access dashboard without login')
     return redirect(url_for('login'))
+
 
 
 
@@ -412,9 +495,19 @@ def update_hr_data():
             updated_data = {}
 
             # Iterate over form fields to collect updated data
+            # for key, value in request.form.items():
+            #     if key != 'id':
+            #         updated_data[key] = value
+
             for key, value in request.form.items():
-                if key != 'id':
+                if key == 'id':
+                    continue
+            # Map form field "rank" to DB column "emp_rank"
+                if key == 'rank':
+                    updated_data['emp_rank'] = value
+                else:
                     updated_data[key] = value
+
             
             # Construct the SQL query dynamically
             set_clause = ', '.join([f"{key} = %s" for key in updated_data.keys()])
@@ -880,8 +973,57 @@ def update_user_role():
         pass
 
 
+
+def serialize_role_row(row):
+    # Adjust indexes to your table structure if needed
+    return {
+        "id": row[0],
+        "username": row[1],
+        "role": row[3],
+    }
+
+@app.route("/api/roles", methods=["GET"])
+def api_get_roles():
+    # TEMP: ignore DB, return mock data so frontend works
+    mock_data = [
+        {"id": 1, "username": "admin_user", "role": "Admin"},
+        {"id": 2, "username": "se_user", "role": "SE"},
+        {"id": 3, "username": "hr_user", "role": "HR"},
+        {"id": 4, "username": "pr_user", "role": "PR"},
+    ]
+    return jsonify(mock_data), 200
+
+
+# @app.route("/api/roles", methods=["GET"])
+# def api_get_roles():
+#     # If DB is not available, return mock data so frontend still looks good
+#     if db is None:
+#         app.logger.warning("DB is None; returning mock roles data.")
+#         mock_data = [
+#             {"id": 1, "username": "admin_user", "role": "Admin"},
+#             {"id": 2, "username": "se_user", "role": "SE"},
+#             {"id": 3, "username": "hr_user", "role": "HR"},
+#         ]
+#         return jsonify(mock_data), 200
+
+#     cursor = db.cursor()
+#     cursor.execute("SELECT id, username, password, role FROM LogIn_Credential")
+#     rows = cursor.fetchall()
+#     cursor.close()
+
+#     data = [serialize_role_row(row) for row in rows]
+#     return jsonify(data), 200
+
+@app.route("/ping")
+def ping():
+    return "pong", 200
+
+
+
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(host="127.0.0.1", port=8000, debug=True)
 
 
 
